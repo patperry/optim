@@ -1,0 +1,3 @@
+Currently, this doesn't compile, due to the unfulfilled dependency on
+BLAS and the undefined xmalloc function.
+
