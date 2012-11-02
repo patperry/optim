@@ -1,5 +1,5 @@
-#ifndef _LINESEARCH_H
-#define _LINESEARCH_H
+#ifndef OPTIM_LINESEARCH_H
+#define OPTIM_LINESEARCH_H
 
 #include <stddef.h>
 
@@ -140,4 +140,4 @@ double linesearch_grad(const struct linesearch *ls)
 	return ls->g;
 }
 
-#endif /* _LINESEARCH_H */
+#endif /* OPTIM_LINESEARCH_H */
